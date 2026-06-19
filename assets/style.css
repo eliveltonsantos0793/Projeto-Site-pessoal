@@ -7,8 +7,8 @@
 body {
     min-height: 100vh;
     font-family: "Segoe UI", Arial, sans-serif;
-    background: #f5f5f5;
-    color: #111;
+    background: #000000;
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -26,7 +26,7 @@ button {
     min-height: 50px;
     border: none;
     border-radius: 4px;
-    background-color: #c51111;
+    background-color: #1d01bd;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -34,55 +34,58 @@ button {
 }
 
 .caixa-principal {
+    position: relative;
+    z-index: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
     padding: 80px 40px;
     gap: 40px;
+    background-color: #000000;
 }
 
 .caixa-info-texto {
     width: 100%;
     max-width: 580px;
     padding: 24px;
-    background: rgba(255, 255, 255, 0.92);
-    border-radius: 16px;
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+    background: rgb(0, 0, 0);
+        color: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+    }
+
+    .caixa-info-texto p {
+        margin-top: 1.25rem;
+        font-size: clamp(1rem, 1.05vw, 1.12rem);
+        line-height: 1.8;
+        text-align: justify;
+        white-space: pre-line;
+        overflow-wrap: break-word;
+        color: #ffffff;
+        background-color: rgb(0, 0, 0);
 }
 
-.caixa-info-texto p {
-    margin-top: 1.25rem;
-    font-size: clamp(1rem, 1.05vw, 1.12rem);
-    line-height: 1.8;
-    text-align: justify;
-    white-space: pre-line;
-    overflow-wrap: break-word;
-}
-
-.caixa-info-texto img {
-    max-width: 180px;
-    border-radius: 12px;
-}
-
-.carreta-iveco {
+.rodapé {
     width: 100%;
     max-width: 520px;
-    border-radius: 16px;
+    border-radius: 100px;
 }
 
-.video-scania {
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    overflow: hidden;
+.rodapé-video {
+   width: 100%;
+   height: 20vh; /*ajustar em 20% da altura da tela*/
+   overflow: hidden;
+   position: relative;
 }
 
-.video-scania video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+.rodapé-video video {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
 }
+
 
 @media (max-width: 980px) {
     .caixa-principal {
@@ -106,7 +109,7 @@ button {
         border-radius: 12px;
     }
 
-    .carreta-iveco {
+    .logo {
         max-width: 100%;
         height: auto;
     }
