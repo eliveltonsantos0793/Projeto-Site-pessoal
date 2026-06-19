@@ -1,64 +1,63 @@
-{
-    /* Estilos globais */
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Arial', sans-serif;
-        background-color: #f4f4f4;
-    }
+/* Estilos globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        padding: 20px;
-    }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
 
-    .caixa-info {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #fff;
-        padding: 40px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        max-width: 1200px;
-        width: 100%;
-    }
+.caixa-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+}
 
-    .caixa-info-texto {
-        max-width: 600px;
-    }
+.caixa-info-texto {
+    max-width: 600px;
+}
 
-    .caixa-info-texto h1 {
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
+.caixa-info-texto h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
 
-    .caixa-info-texto h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+.caixa-info-texto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
-    .caixa-info-texto p {
-        font-size: 18px;
-        line-height: 1.6;
-        margin-bottom: 30px;
-    }
+.caixa-info-texto p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
 
-    .caixa-info-texto button {
-        padding: 10px 20px;
-        font-size: 16px;
-        color: #fff;
-        background-color: #007BFF;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+.caixa-info-texto button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-    .caixa-info-texto button:hover {
-        background-color: #0056b3;
+.caixa-info-texto button:hover {
+    background-color: #0056b3;
 }
